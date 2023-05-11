@@ -57,20 +57,6 @@ def exercicio02():
 # exercicio02()
 
 
-# 3) Abaixo estão a taxa de desemprego no brasil nos últimos 5 anos
-# Dados retirados do site: https://br.investing.com/economic-calendar/brazilian-unemployment-rate-411
-# 2019 => 11,6% 2020 => 11,0% 2021 => 14,1% 2022 => 11,6% 2023 => 8,1%
-# Construa um gráfico de linhas que represente esses valores.
-
-# def exercicio03():
-#     anos = ['2019', '2020', '2021', '2022', '2023']
-#     valores = [11.6, 11, 14.1, 11.6, 8.1]
-#     plt.plot(anos, valores, color = 'black', label = 'Exercicio 03')
-#     plt.scatter(anos, valores, color = 'green')
-#     plt.legend()
-#     plt.show()
-
-
 
 def exercicio03():
     anos = [2019, 2020, 2021, 2022, 2023]
@@ -98,6 +84,7 @@ def exercicio04():
     plt.axis('equal')
     plt.show()
 
+# exercicio04()
 
 def exibir_menu():
     print("Menu:")
